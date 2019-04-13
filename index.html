@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Video Game Meme App</title>
+
+	</head>
+	<body>
+        <h1 id = "logo">The <span id = "gamer">Gamer</span> 
+            One stop shopping for the best vide game memes on the web!</h1>
+
+		<br>
+		
+		<div id = "main_container">
+			<!-- This is where we append the default game buttons without the need of user input -->
+			<div id = "game_buttons"></div>
+
+
+			          <!-- Div to contian Video Games Inputs Form -->
+			<div id = "game_input_box">
+				<form id = "game_form">
+
+                      <!-- Field for users to add a new Video Game button-->
+                    
+                    <label for = "game_input">Add a Video Game!</label>
+                    <br>
+					             <!-- Input Box -->
+					<input type="text" id="game_input">
+					<br>
+					            <!-- Submit Button -->
+					<input id = "add_game" type="submit">	
+				</form>
+			</div>
+
+
+			<!-- This is where the images are going to be output for the user to see -->
+			<div id = "game_images"></div>
+
+		</div>
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		                <!-- Link in Game API and Basic JavaScript -->
+		<script src="app.js"></script>
+
+	</body>
