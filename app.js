@@ -76,7 +76,7 @@ $( document ).ready(function(){
 		// API Information 
 		var api_key = "2YUa5yMPYOroqsBYCSfkdSObICQWrY1t";
 		var limit = "10"; 
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + game + "&limit=" + limit + "&api_key=" + api_key;
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + game + "&limit=" + limit + "&api_key=" + api_key;
 
 		
 		// Creates AJAX call for the specific gaming meme button upon click. 
